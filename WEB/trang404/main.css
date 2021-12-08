@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/404.png);
+    background-size: 100% 850px;
+    background-attachment: fixed;
+}
+
+.navbar{
+    border: 2px solid whitesmoke;
+    height: 40px;
+    
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    background-color:  lightslategrey;
+    color: rgb(250, 236, 236);
+    border-radius: 3px;
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(2, 3, 3);
+}
+.dropdown-menu > li > a{
+    color: black;
+}
+.dropdown-menu{
+    background-color: transparent;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.active{
+    background-color: black;
+}
+.form-control{
+    background-color: whitesmoke;
+}
+.btn-default:hover {
+    background-color: black;
+}
+.btn-default {
+    background-color: whitesmoke;
+    color: rgb(65, 63, 63);
+}
+.my-container{
+    margin-left: 50%;
+    margin-top: 50px;
+   
+}
+.button{
+    border: 3px solid black; 
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+.button:hover{
+    border: 3px solid whitesmoke; 
+    border-radius: 5px;
+    background-color: #4d97ff;
+    color: white;
+    text-decoration: none
+}

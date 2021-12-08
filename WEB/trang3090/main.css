@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/backgroud.png);
+    background-size: 100% 850px;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background: transparent;
+    border: seashell;
+    height: 40px;
+    
+    
+}
+.navbar-default .navbar-nav > li > a {
+    color: aquamarine;
+
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    background-color:  rgba(0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(10, 104, 104);
+}
+.dropdown-menu > li > a{
+    color: cyan;
+}
+.dropdown-menu{
+    background-color: transparent;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.form-control{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.btn-default:hover {
+    background-color: rgba(21, 190, 219, 0.5);
+}
+.btn-default {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aquamarine;
+}
+.my-row{
+    margin-left: 200px;
+    
+}
+
+.snip1582 {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'BenchNine', Arial, sans-serif;
+    font-size: 1em;
+    font-size: 22px;
+    line-height: 1em;
+    margin: 15px 40px;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  
+  .snip1582:before,
+  .snip1582:after {
+    border-color: transparent;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    height: 24px;
+    position: absolute;
+    width: 24px;
+  }
+  
+  .snip1582:before {
+    border-color: aquamarine;
+    border-top-width: 2px;
+    left: 0px;
+    top: -5px;
+  }
+  
+  .snip1582:after {
+    border-bottom-width: 2px;
+    border-color: aquamarine;
+    bottom: -5px;
+    right: 0px;
+  }
+  
+  .snip1582:hover,
+  .snip1582.hover {
+    background-color: aquamarine;
+    color: black;
+  }
+  
+  .snip1582:hover:before,
+  .snip1582.hover:before,
+  .snip1582:hover:after,
+  .snip1582.hover:after {
+    height: 100%;
+    width: 100%;
+  }
+.my-btn{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+.my-li{
+    color: aquamarine;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.box-my{
+    width: 500px;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    height: 440px;
+    
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+    border: 0 solid rgba(21, 190, 219, 0.5);
+    margin-top: 20px;
+}
+.row {
+    margin-top: 2%;
+    height: 1px;
+    color: aliceblue;
+    
+}
+.my-container{
+    color: aquamarine;
+}

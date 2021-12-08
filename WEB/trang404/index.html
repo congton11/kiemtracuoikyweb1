@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Gaming Gear</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel='shortcut icon' href='/img/Lô_gô.png' />
+  
+  </head>
+  <style>
+    .sticky {
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+      top: 0;
+      width: 100%
+  }
+  .sticky + .content {
+   padding-top: 102px;
+  
+   
+  }
+  </style>
+  <body>
+    <div class="container header"id="myHeader">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header"class="header" id="myHeader" >
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="https://www.facebook.com/profile.php?id=100065330700314"><b style="color: black; ">Nguyễn Tôn</b></a></div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="/WEB/Tranggioithieu/index.html" style="color: aquamarine; background-color: rgba(0, 0, 0, 0.2); border-radius: 10px;">Trang Chủ <span class="sr-only">(current)</span></a></li>
+                  
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Sản Phẩm <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/WEB/trangloptop/index.html">Loptop</a></li>
+                      <li><a href="/WEB/trang404/index.html">Pc Gear</a></li>
+                      <li><a href="/WEB/trangcpu/index.html">CPU</a></li>
+                      <li><a href="/WEB/trang404/index.html">Ram</a></li>
+                      <li><a href="/WEB/trangGPU/index.html">GPU</a></li>
+                      <li><a href="/WEB/trang404/index.html">Nguồn</a></li>
+                      <li><a href="/WEB/trang404/index.html">Vỏ</a></li>
+                      <li><a href="/WEB/trang404/index.html">Chột</a></li>
+                      <li><a href="/WEB/trang404/index.html">Bàn phím</a></li>
+                      <li><a href="/WEB/trangmanbo/index.html">main</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="/WEB/trang404/index.html">Bàn</a></li>
+                      <li><a href="/WEB/trang404/index.html">Ghế</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="/WEB/trang404/index.html">Hàng cũ</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Search</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/WEB/trangdangnhap/index.html">Log in</a></li>
+                  <li><a href="/WEB/Trangdangky/index.html">Register now</a></li>
+                  <li class="dropdown">
+                    <a href="/WEB/trang404/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hỗ trợ <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/WEB/trang404/index.html">Complain</a></li>
+                      <li><a href="/WEB/trang404/index.html">Feedbackn</a></li>
+                      
+                      <li role="separator" class="divider"></li>
+                      <li><a href="/WEB/trang404/index.html">Have a chat with us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </div>
+    <div class="container my-container">
+      <h1><b>Trang wep đang bảo trì</b></h1>
+      <p><b style="font-size: 20px;">Xin lỗi vì sự bất tiện này</b></p>
+      <p style="font-size: 20px;">Quay lại trang chủ để xem những sản phẩm khác<a class="button" href="/WEB/Tranggioithieu/index.html">Quay lại ngay</a></p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+      $(document).ready(function() {       
+      $("#myCarousel").carousel(1);       
+      $(".left").click(function() {        
+      $("#myCarousel").carousel('prev');       
+      });        
+      $(".right").click(function() {       
+      $("#myCarousel").carousel('next');       
+      });       
+      });
+      </script>
+    <script src="/js/jquery-1.12.4.min.js"></script> 
+    <script src="/js/bootstrap.js"></script> 
+    <script>
+      window.onscroll = function() {myFunction()};
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
+  
+  </body>
+</html>

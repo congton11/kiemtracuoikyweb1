@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/backgroud.png);
+    background-size: 100% 850px;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background: transparent;
+    
+
+    
+    
+}
+.navbar-default{
+    border-color: transparent;
+    border-bottom: 3px outset aquamarine;
+}
+.navbar-default .navbar-nav > li > a {
+    color: aquamarine;
+
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    background-color:  rgba(0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(10, 104, 104);
+}
+.dropdown-menu > li > a{
+    color: cyan;
+}
+.dropdown-menu{
+    background-color: transparent;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.form-control{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 150px;
+}
+.btn-default:hover {
+    background-color: rgba(21, 190, 219, 0.5);
+}
+.btn-default {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aquamarine;
+}
+.container-my{
+    width: 130px;
+    
+}
+.my-select{
+    width: 1200px;
+    margin-top: 15px;
+    margin-left: 190px;
+}
+.my-control{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: aquamarine;
+}
+option{
+    background-color: black;
+}
+.my-container{
+    margin-left: 34px;
+}
+.nav-tabs > li > a{
+    border-top: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    background-color: transparent;
+    color: turquoise;
+    font-size: 15px;
+}
+.sanphamloptop{
+   margin-top: 10px;
+}
+.row{
+    margin-top: 15px;
+    
+}
+.thumbnail {
+    background-color: transparent;
+}
+.thumbnail > img, .thumbnail a > img{
+    background-color: rgba(255, 251, 251, 0.5);
+}
+.myHeader .loptop .container-my .my-container .mb-3 {
+    position: absolute;
+}
+.myHeader{
+    z-index: 1;
+}
+.loptop .container-my .my-container .mb-3{
+    z-index: 2;
+}
+
+
+.btn-toolbar{
+    margin-top: 20px;
+    margin-left: 600px;
+    color: aquamarine;
+}
+.content {
+    padding: 16px;
+}
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sticky {
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   width: 100%
+   
+}
+  .sticky + .content {
+   padding-top: 102px;
+  
+   
+ }
+ .sanphamloptop{
+     border-bottom: 1px solid whitesmoke;
+ }
+
+
+
+
+
+
+
+
+
+    
